@@ -8,9 +8,6 @@ html = '''<html>
         <head>
             <meta charset="UTF-8">
             <title>Геральдические символы Москвы</title>
-            <style>
-                h2 {page-break-before: always}
-            </style>
         </head>
         <body>
 '''
