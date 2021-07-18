@@ -21,6 +21,6 @@ PDF = canvas.Canvas("libraries.pdf", pagesize=pagesizes.A4)  # указывае�
 PDF.setFont("Trebuchet", 13)
 PDF.drawString(550, 820, "2")  # номер страницы
 PDF.setFont("Trebuchet", 48)
-PDF.drawString(100, 750, "Библиолеки Москвы")  # загаловок диаграммы
+PDF.drawString(100, 750, "Библиотеки Москвы")  # загаловок диаграммы
 PDF.drawImage(ImageReader("libraries.png"), 50, 200)  # вставка изображения диаграммы
 PDF.save()
