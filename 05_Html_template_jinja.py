@@ -15,7 +15,7 @@ item_template = '''
 <h1 style="page-break-before: always">{{data.Name}}</h1>
 <p>
     <img style="width:80%;margin-left:10%"
-    src="https://op.mos.ru/MEDIA/showFile?id={{data.Picture}}" alt="{{data.Name}}">
+    src="https://op.mos.ru/MEDIA/showFile?id={{data.Picture}}" alt="{{data.Name}}"/>
 </p>
 <p style="font-size:150%">{{data.Description}}</p>
 '''
